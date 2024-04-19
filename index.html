@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="styles.css"> 
+	<body>
+		<div id="cuestionario">
+		<p>
+		Consumo de REST-API de Fortnite
+		</p>
+
+		<div>
+			<label>Nombre</label>
+			<input type="text" id ="name">
+		</div>
+		
+		<div>
+			<label>Descripcion</label>
+			<input type="text" id="descripcion">
+		</div>
+
+		<div>
+			<label>Imagen</label>
+			<input type="text" id="img">
+		</div>
+
+		<button onclick="postImagen()">Post Imagen </button>
+		<button onclick="getImagen()">Get Imagen</button>
+	</div>
+		<div id="resultado"></div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="callrestapi.js"></script>
+
+	</body>
+</html>
+

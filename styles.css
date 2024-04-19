@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    margin-top: 50px;
+}
+
+table {
+    box-shadow: 0px 0px 20px lightblue;
+    border-collapse:collapse;
+    width: 100%;
+    border: 2px solid #3395ff;
+
+
+}
+
+th, td {
+    border: 1px solid #007bff;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+#cuestionario{
+    text-align: center;
+
+}
