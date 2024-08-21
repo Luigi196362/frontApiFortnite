@@ -1,4 +1,4 @@
-var url="http://localhost:8080/api/Fortnite";
+var url="https://api-back-420023.uc.r.appspot.com/api/Fortnite";
 
 function postImagen(){
 
